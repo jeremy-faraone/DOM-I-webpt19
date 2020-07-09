@@ -53,11 +53,13 @@ logo.setAttribute("src", siteContent["img"]["logo-img"]);
 
 let ctaImage = document.getElementById("cta-img");
 ctaImage.setAttribute("src", siteContent["cta"]["img"]);
-ctaImage.src = "img/header-img.png";
+ctaImage.src =
+  "https://tk-assets.lambdaschool.com/d312ae1d-879c-4c0b-8e0a-d03661aed7d8_header-img.png";
 
 let midImage = document.getElementById("middle-img");
 midImage.setAttribute("src", siteContent["main-content"]["img"]);
-midImage.src = "img/mid-page-accent.jpg";
+midImage.src =
+  "https://tk-assets.lambdaschool.com/933e5c8a-f143-4a89-b81b-4a609c325f1a_mid-page-accent.jpg";
 
 //text
 
