@@ -60,41 +60,56 @@ let midImage = document.getElementById("middle-img");
 midImage.setAttribute("src", siteContent["main-content"]["img"]);
 midImage.src =
   "https://tk-assets.lambdaschool.com/933e5c8a-f143-4a89-b81b-4a609c325f1a_mid-page-accent.jpg";
+midImage.style.borderRadius = "15px";
 
 //text
 
 const h1 = document.querySelector(".cta-text h1");
 h1.textContent = siteContent.cta.h1;
+h1.style.color = "red";
+h1.style.textShadow = "2px 2px black";
 
 const button = document.querySelector(".cta .cta-text button");
 button.textContent = siteContent.cta.button;
+button.style.color = "red";
+button.style.textShadow = "1px 1px black";
 
 const feats = document.getElementsByTagName("p");
 feats[0].textContent = siteContent["main-content"]["features-content"];
 
 const featHead = document.getElementsByTagName("h4");
 featHead[0].textContent = siteContent["main-content"]["features-h4"];
+featHead[0].style.color = "red";
+featHead[0].style.textShadow = "1px 1px black";
 
 const abtHead = document.getElementsByTagName("h4");
 abtHead[1].textContent = siteContent["main-content"]["about-h4"];
+abtHead[1].style.color = "red";
+abtHead[1].style.textShadow = "1px 1px black";
 
 const abt = document.getElementsByTagName("p");
 abt[1].textContent = siteContent["main-content"]["about-content"];
 //
 const srvHead = document.getElementsByTagName("h4");
 srvHead[2].textContent = siteContent["main-content"]["services-h4"];
+srvHead[2].style.color = "red";
+srvHead[2].style.textShadow = "1px 1px black";
 
 const srv = document.getElementsByTagName("p");
 srv[2].textContent = siteContent["main-content"]["services-content"];
 
 const prodHead = document.getElementsByTagName("h4");
 prodHead[3].textContent = siteContent["main-content"]["product-h4"];
+prodHead[3].style.color = "red";
+prodHead[3].style.textShadow = "1px 1px black";
 
 const prod = document.getElementsByTagName("p");
 prod[3].textContent = siteContent["main-content"]["product-content"];
 
 const visHead = document.getElementsByTagName("h4");
 visHead[4].textContent = siteContent["main-content"]["vision-h4"];
+visHead[4].style.color = "red";
+visHead[4].style.textShadow = "1px 1px black";
 
 const vis = document.getElementsByTagName("p");
 vis[4].textContent = siteContent["main-content"]["vision-content"];
@@ -103,6 +118,8 @@ vis[4].textContent = siteContent["main-content"]["vision-content"];
 
 const contHead = document.getElementsByTagName("h4");
 contHead[5].textContent = siteContent["contact"]["contact-h4"];
+contHead[5].style.color = "red";
+contHead[5].style.textShadow = "1px 1px black";
 
 const cont1 = document.getElementsByTagName("p");
 cont1[5].textContent = siteContent["contact"]["address"];
@@ -112,6 +129,7 @@ cont2[6].textContent = siteContent["contact"]["phone"];
 
 const cont3 = document.getElementsByTagName("p");
 cont3[7].textContent = siteContent["contact"]["email"];
+cont3[7].style.color = "blue";
 
 // footer
 
