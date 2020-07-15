@@ -142,10 +142,3 @@ const navItems = document.querySelectorAll("nav a");
 for (let i = 1; i <= navItems.length; i++) {
   navItems[i].textContent = siteContent.nav[`nav-item-${i}`];
 }
-
-const newElement = document.createElement("a");
-newElement.textContent = "Go Here";
-newElement.style.color = "red";
-
-const parentElement = document.querySelector("header nav");
-parentElement.appendChild(newElement);
